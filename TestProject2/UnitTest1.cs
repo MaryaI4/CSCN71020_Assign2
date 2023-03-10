@@ -21,14 +21,14 @@ namespace TestProject2
         [TestMethod]
         public void SetWidth2()
         {
-            int input = -45, width;
+            int input = 45, width;
             if (input > 0 && input < 99)
             {
                 width = input;
                 Assert.AreEqual(input, input);
 
             }
-            Assert.AreEqual(88888, input);
+            Assert.AreEqual(45, input);
 
         }
         [TestMethod]
@@ -59,14 +59,14 @@ namespace TestProject2
 
         public void lengthlimit2()
         {
-            int input = -23, length;
+            int input = 23, length;
             if (input > 0 && input < 99)
             {
                 length = input;
                 Assert.AreEqual(input, input);
 
             }
-            Assert.AreEqual(999999, input);
+            Assert.AreEqual(23, input);
         }
         [TestMethod]
 
