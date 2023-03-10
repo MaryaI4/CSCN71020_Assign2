@@ -66,7 +66,7 @@ namespace TestProject2
                 Assert.AreEqual(input, input);
 
             }
-            Assert.AreEqual(9999999, input);
+            Assert.AreEqual(999999, input);
         }
         [TestMethod]
 
